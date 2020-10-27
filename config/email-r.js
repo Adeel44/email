@@ -4,7 +4,7 @@ var fs = require('fs'), fileStream;
 
 var imap = new Imap({
     user: 'adeel99ahmed@gmail.com',
-    password: "adeel999",
+    password: "password",
     host: 'imap.gmail.com',
     port: 993,
     tls: true

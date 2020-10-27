@@ -6,7 +6,7 @@ var Imap = require('imap'),
 // Step 2: Declaring new imap object
 var imap = new Imap({
   user: 'adeel.ngxoft@gmail.com', // example: aakanksha.jain8@gmail.com
-  password: 'adeel1112', // Remember, using just password for authentication will only work if you have less secured apps enabled 
+  password: 'password', // Remember, using just password for authentication will only work if you have less secured apps enabled 
   host: 'imap.gmail.com', 
   port: 993,
   tls: true
